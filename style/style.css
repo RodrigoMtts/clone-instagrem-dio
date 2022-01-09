@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 40%;
+    height: 90vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.container img{
+    height: 50rem;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-width: 1px;
+    width: 100%;
+    border-style: solid;
+    border-color: #dbdbdb;
+    background-color: white;
+    padding: 1rem 0;
+    margin: 0.5rem;
+}
+
+.group img{
+    width: 50%;
+    height: auto;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0 1rem 0;    
+    width: 80%;
+}
+
+input{
+    padding: 7px 0px;
+    width: 100%;
+    background-color: #fafafa;
+    border-style: groove;
+    border-color: #fefefe;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+
+.label-form{
+    padding: 3px 0;
+    width: 90%;
+    
+}
+
+.espaca-input{
+    background-color: #fafafa;
+    margin: 3px;
+    padding: 0 5px;
+    border: none;
+    width: 90%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dbdbdb;
+    border-radius: 3px;
+}
+
+button{
+    font-weight: bold;
+    color: white;
+    background-color: #b2dffc;
+    width: 93%;
+    height: 2rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    opacity: 1;
+    margin-top: 1rem;
+}
+
+.linha {
+    height: 1px;
+    width: 50%;
+    background-color: #dbdbdb;
+}
+
+.ou{
+    padding: 0 1rem 0 1rem;
+    font-weight: bold;  
+    color: #8e8e8e;  
+}
+
+.linha-ou-linha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    width: 72%;
+}
+
+.background-facebook{
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    background-image: url("../img/facebook.png");
+    background-size: cover;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.entrar-com-facebook{
+    padding: 1rem 0;
+    color: #385185;
+    font-weight: bold;
+}
+
+.recuperar-senha{
+    padding: 1rem 0;
+    font-size: 12px;
+    color: #2c5984;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    width: 100%;
+    height: 3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+    background-color: white;
+    margin: 1rem 0;
+}
+
+.cadastre-se{
+    color: #0095f6;
+    font-weight: bold;
+}
+
+.baixar-apps{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-width: 1px;
+    width: 100%;
+}
+
+.apps{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.background-app-store{
+    width: 10rem;
+    height: 3rem;
+    background-size: cover;
+    background-image: url("../img/apple-button.png");
+}
+
+.background-google-play{
+    width: 10rem;
+    height: 3rem;
+    background-size: cover;
+    background-image: url("../img/googleplay-button.png");
+}
+
+@media (max-width: 1600px) {
+    .wrapper {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 80%;
+    }
+}
+
+@media (max-width: 748px) {
+    .wrapper {
+        flex-direction: column;
+        width: 50rem;
+    }
+}
